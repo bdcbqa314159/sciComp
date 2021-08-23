@@ -1,0 +1,9 @@
+Target dependency graph (4 targets)
+ZERO_CHECK in scicomp
+sciComp in scicomp, depends on:
+ZERO_CHECK in scicomp (explicit)
+ALL_BUILD in scicomp, depends on:
+sciComp in scicomp (explicit)
+ZERO_CHECK in scicomp (explicit)
+install in scicomp, depends on:
+ALL_BUILD in scicomp (explicit)

@@ -21,7 +21,18 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/intro.hpp
     ${PROJECT_INCLUDE_DIR}/quaternion.hpp
     ${PROJECT_INCLUDE_DIR}/valarray_util.hpp
+    ${PROJECT_INCLUDE_DIR}/range.hpp
     ${PROJECT_INCLUDE_DIR}/fft.hpp
+    ${PROJECT_INCLUDE_DIR}/inplace_factorize.hpp
+    ${PROJECT_INCLUDE_DIR}/inplace_solve.hpp
+    ${PROJECT_INCLUDE_DIR}/interpolate_1d.hpp
+    ${PROJECT_INCLUDE_DIR}/mass.hpp
+    ${PROJECT_INCLUDE_DIR}/energy.hpp
+    ${PROJECT_INCLUDE_DIR}/tridiag.hpp
+    ${PROJECT_INCLUDE_DIR}/tridiag_ldlt.hpp
+    ${PROJECT_INCLUDE_DIR}/u_alpha.hpp
+    ${PROJECT_INCLUDE_DIR}/chi_beta.hpp
+    ${PROJECT_INCLUDE_DIR}/f_alpha.hpp
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
 )

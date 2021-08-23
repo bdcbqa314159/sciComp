@@ -234,8 +234,39 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/math.h \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/sstream \
   /usr/local/include/sciComp_bits/valarray_util.hpp \
-  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/valarray
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/valarray \
+  /usr/local/include/sciComp_bits/range.hpp \
+  /usr/local/include/sciComp_bits/fft.hpp \
+  /usr/local/include/sciComp_bits/inplace_factorize.hpp \
+  /usr/local/include/sciComp_bits/inplace_solve.hpp \
+  /usr/local/include/sciComp_bits/interpolate_1d.hpp \
+  /usr/local/include/sciComp_bits/mass.hpp \
+  /usr/local/include/sciComp_bits/energy.hpp \
+  /usr/local/include/sciComp_bits/tridiag.hpp \
+  /usr/local/include/sciComp_bits/energy.hpp \
+  /usr/local/include/sciComp_bits/tridiag_ldlt.hpp \
+  /usr/local/include/sciComp_bits/tridiag.hpp \
+  /usr/local/include/sciComp_bits/inplace_factorize.hpp \
+  /usr/local/include/sciComp_bits/inplace_solve.hpp \
+  /usr/local/include/sciComp_bits/u_alpha.hpp \
+  /usr/local/include/sciComp_bits/chi_beta.hpp \
+  /usr/local/include/sciComp_bits/f_alpha.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip
 
+
+/usr/local/include/sciComp_bits/chi_beta.hpp:
+
+/usr/local/include/sciComp_bits/u_alpha.hpp:
+
+/usr/local/include/sciComp_bits/tridiag_ldlt.hpp:
+
+/usr/local/include/sciComp_bits/mass.hpp:
+
+/usr/local/include/sciComp_bits/interpolate_1d.hpp:
+
+/usr/local/include/sciComp_bits/inplace_solve.hpp:
+
+/usr/local/include/sciComp_bits/fft.hpp:
 
 /usr/local/include/sciComp_bits/valarray_util.hpp:
 
@@ -395,6 +426,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__functional_base:
 
+/usr/local/include/sciComp_bits/inplace_factorize.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstring:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__undef_macros:
@@ -463,6 +496,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__debug:
 
+/usr/local/include/sciComp_bits/range.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_xlocale.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/alloca.h:
@@ -526,6 +561,10 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/_ctermid.h:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip:
+
+/usr/local/include/sciComp_bits/energy.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/version:
 
@@ -621,6 +660,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int16_t.h:
 
+/usr/local/include/sciComp_bits/f_alpha.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/utility:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cerrno:
@@ -696,6 +737,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdio.h:
 
 /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.5/include/stdint.h:
+
+/usr/local/include/sciComp_bits/tridiag.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/string.h:
 

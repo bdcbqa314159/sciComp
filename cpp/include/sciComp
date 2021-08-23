@@ -4,6 +4,17 @@
 #include "sciComp_bits/intro.hpp"
 #include "sciComp_bits/quaternion.hpp"
 #include "sciComp_bits/valarray_util.hpp"
+#include "sciComp_bits/range.hpp"
 #include "sciComp_bits/fft.hpp"
+#include "sciComp_bits/inplace_factorize.hpp"
+#include "sciComp_bits/inplace_solve.hpp"
+#include "sciComp_bits/interpolate_1d.hpp"
+#include "sciComp_bits/mass.hpp"
+#include "sciComp_bits/energy.hpp"
+#include "sciComp_bits/tridiag.hpp"
+#include "sciComp_bits/tridiag_ldlt.hpp"
+#include "sciComp_bits/u_alpha.hpp"
+#include "sciComp_bits/chi_beta.hpp"
+#include "sciComp_bits/f_alpha.hpp"
 
 #endif

@@ -5,6 +5,10 @@
 #include <valarray>
 #include <iomanip>
 #include <cassert>
+#include <algorithm>
+
+std::complex<double> f_(double x) { return (x<0.5) ? x: 1-x; }
+double u_(double x) { return (1-x*x)/2; }
 
 int testingQuaternion(){
     
@@ -40,15 +44,13 @@ int testValArray(){
     return 0;
 }
 
-std::complex<double> f(double x) {return (x<0.5) ? x: 1-x;}
-
 int testingFft(){
     
     size_t n = 32;
     std::valarray<std::complex<double>> x(n);
     
     for (size_t k = 0; k<n; k++){
-        x[k] = f(1.*k/n);
+        x[k] = f_(1.*k/n);
     }
     
     assert(fabs(log2(n) - int(log2(n))) < 1e-10);
@@ -69,12 +71,68 @@ int testingFft(){
     return 0;
 }
 
+int testingPoisson1D(){
+    
+    size_t n = 32;
+    
+    double h = 2./n;
+    
+    std::valarray<double> D(2, n-1), L(-1,n-2);
+    inplace_factorize(D, L);
+    std::valarray<double> b(h*h, n-1);
+    inplace_solve(D,L,b);
+    std::valarray<double> pi_h_u(n-1);
+    
+    for (size_t i = 0; i<n-1; i++){
+        pi_h_u[i] = u_(-1+(1+i)*h);
+    }
+    
+    std::valarray<double> uerr = abs(pi_h_u - b);
+    std::cout<<"err = "<<uerr.max()<<std::endl;
+    
+    
+    return 0;
+}
+
+int testingFiniteElements1D(){
+    
+    size_t n = 1000;
+    double alpha = 0.5;
+    double beta = 2/alpha;
+    
+    std::valarray<double> x(n+1);
+    for (size_t i = 0; i<n+1; i++){
+        x[i] = -1 + 2*chi(beta,1.0*i/n);
+    }
+    
+    std::valarray<double>M(n-1);
+    tridiag<double> A(n-1);
+    mass (x,M);
+    energy (x,A);
+    
+    tridiag_ldlt<double> C(A);
+    
+    std::valarray<double> pi_h_f = interpolate(x,f(alpha)), b = M*std::valarray<double>(pi_h_f[range(1,n)]), uh(0.0, n+1);
+    
+    uh[range(1,n)] = C.solve(b);
+    std::valarray<double> pi_h_u = interpolate(x, u(alpha)), u_err = (pi_h_u - uh)[range(1,n)], uerr_linf =  abs(u_err);
+    
+    std::cerr<<"err_l2 "<<sqrt(dot(u_err, M*u_err))<<std::endl<<"err_linf "<<uerr_linf.max()<<std::endl<<"err_h1 "<<sqrt(dot(u_err, A*u_err))<<std::endl;
+    
+    
+    
+    return 0;
+}
+
+
+
 
 int main() {
     
 //    testingQuaternion();
 //    testValArray();
-    testingFft();
+//    testingFft();
+    testingPoisson1D();
     
     return 0;
 }
