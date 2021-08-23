@@ -1,0 +1,7 @@
+#ifndef SCICOMP_H
+#define SCICOMP_H
+
+#include "sciComp_bits/intro.hpp"
+#include "sciComp_bits/quaternion.hpp"
+
+#endif

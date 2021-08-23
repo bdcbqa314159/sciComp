@@ -1,0 +1,4 @@
+/Users/bernardocohen/repos/sciComp/cpp/Xcode/CMakeFiles/install.dir
+/Users/bernardocohen/repos/sciComp/cpp/Xcode/CMakeFiles/sciComp.dir
+/Users/bernardocohen/repos/sciComp/cpp/Xcode/CMakeFiles/ALL_BUILD.dir
+/Users/bernardocohen/repos/sciComp/cpp/Xcode/CMakeFiles/ZERO_CHECK.dir
