@@ -20,9 +20,10 @@ set(PROJECT_INCLUDE_DIR "include/sciComp_bits")
 set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/intro.hpp
     ${PROJECT_INCLUDE_DIR}/quaternion.hpp
+    ${PROJECT_INCLUDE_DIR}/valarray_util.hpp
+    ${PROJECT_INCLUDE_DIR}/fft.hpp
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
-    ${PROJECT_SOURCE_DIR}/quaternion.cpp
 )
 
 # Set up such that XCode organizes the files correctly

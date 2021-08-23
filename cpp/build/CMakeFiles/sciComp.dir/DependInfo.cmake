@@ -9,7 +9,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp" "CMakeFiles/sciComp.dir/src/intro.cpp.o" "gcc" "CMakeFiles/sciComp.dir/src/intro.cpp.o.d"
-  "/Users/bernardocohen/repos/sciComp/cpp/src/quaternion.cpp" "CMakeFiles/sciComp.dir/src/quaternion.cpp.o" "gcc" "CMakeFiles/sciComp.dir/src/quaternion.cpp.o.d"
   )
 
 # Targets to which this target links.

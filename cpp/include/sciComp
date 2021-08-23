@@ -3,5 +3,7 @@
 
 #include "sciComp_bits/intro.hpp"
 #include "sciComp_bits/quaternion.hpp"
+#include "sciComp_bits/valarray_util.hpp"
+#include "sciComp_bits/fft.hpp"
 
 #endif

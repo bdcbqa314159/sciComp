@@ -3,3 +3,5 @@
 /usr/local/include/sciComp_bits/.DS_Store
 /usr/local/include/sciComp_bits/quaternion.hpp
 /usr/local/include/sciComp_bits/intro.hpp
+/usr/local/include/sciComp_bits/fft.hpp
+/usr/local/include/sciComp_bits/valarray_util.hpp

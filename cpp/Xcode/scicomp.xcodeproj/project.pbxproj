@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		6DEF044C27B14A3DB42A0DDE /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 332D842AA16346AAA455D15D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = BB077E4F9DAD4E5E9AF4E95D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				CEFDD2419DB89B966C8371BE /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,25 +20,25 @@
 		};
 		9EBC1418917A4253B134FB82 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 55D14553892A4B40ABB1A3F4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 03AF10B53A964A7CAB40A40B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				E56624D794D75988FB66B0D6 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				A698C69A682C4B98958D34D6 /* PBXTargetDependency */,
-				1A3A16AB5AC84839B639788C /* PBXTargetDependency */,
+				10D0FC0F060049D28BD5C5BD /* PBXTargetDependency */,
+				F6D70BCAC76E473DA5364F9C /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		DB5DBD7591454E4F9A9A7B5A /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = CE86ECA9869B4EEB958EE31F /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = 793D1DC13DBF4E2195CC4B33 /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				9AC45BC1FC0E440E84D98435 /* PBXTargetDependency */,
+				E63F89F60F3F40D69FBE0975 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
@@ -46,36 +46,37 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		1A61BB2B8BBC465180EC6CF8 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */ = {isa = PBXBuildFile; fileRef = 3388DBC22AA146A6BAE22E60 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */; };
-		666624B266744051A237AD18 /* /Users/bernardocohen/repos/sciComp/cpp/src/quaternion.cpp */ = {isa = PBXBuildFile; fileRef = F2A12A48651D499FAF6D2CCB /* /Users/bernardocohen/repos/sciComp/cpp/src/quaternion.cpp */; };
-		A1FAA8092B5B4F959254D36E /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */ = {isa = PBXBuildFile; fileRef = 278982BBFA764040B618278C /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */; };
-		A39E9F2A44B54C8A8603A715 /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */ = {isa = PBXBuildFile; fileRef = D87D5C0374284A1F99013764 /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */; };
-		C063AB97409C46DE8259230E /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 586AD35F3A8D47138A3AF97E /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */; };
+		1197E55EA10F471E8528B573 /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */ = {isa = PBXBuildFile; fileRef = 03F4081A63644BDF8DF0B1F1 /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */; };
+		278BB590B9BD4BB59F2622EF /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/valarray_util.hpp */ = {isa = PBXBuildFile; fileRef = 7368F6D633F948A2907D850F /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/valarray_util.hpp */; };
+		3012192F831A4A3BAA36E217 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft.hpp */ = {isa = PBXBuildFile; fileRef = 872D8E99808441BCB70EA4C3 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft.hpp */; };
+		4A6E2C0B036540E2A127E8BA /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */ = {isa = PBXBuildFile; fileRef = AF18F8C875CE4C9A8337B6B8 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */; };
+		60011A00C0D74A3294287BC6 /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 20B94573F91F434F97219EC0 /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */; };
+		7A3B924BE3B44DA58AF4C17E /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */ = {isa = PBXBuildFile; fileRef = 92344C46F04944CFBFF38B06 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		0EC3496AC2B24B969B16B162 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		59779DAC62ED4D9B828A157C /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		75B4DE39A004424596E2C012 /* RelWithDebInfo */ = {
+		22E30E652063475FAACF99AD /* RelWithDebInfo */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = RelWithDebInfo;
 		};
-		9BD5C1C51959487AA74B5D33 /* MinSizeRel */ = {
+		2B9F5B97B7A54A81AAEF42EC /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		5991CF76149A402E97291538 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		9AC1AB892E7E441FB612F9D3 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -85,28 +86,28 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		070D023C35FC44AF9234B21D /* PBXContainerItemProxy */ = {
+		27DD39D54F73419B8FFA5CC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71EE89B77DA44105A1430982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DEF044C27B14A3DB42A0DDE;
+			remoteInfo = ZERO_CHECK;
+		};
+		396D5755BA3D4775957B86DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71EE89B77DA44105A1430982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DEF044C27B14A3DB42A0DDE;
+			remoteInfo = ZERO_CHECK;
+		};
+		B18D31150CA040A3A15580FD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 71EE89B77DA44105A1430982 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9EBC1418917A4253B134FB82;
 			remoteInfo = ALL_BUILD;
 		};
-		1E19606FA05F41BFB4E3FAFE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71EE89B77DA44105A1430982 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6DEF044C27B14A3DB42A0DDE;
-			remoteInfo = ZERO_CHECK;
-		};
-		5AEF92297B944D1398E640F1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71EE89B77DA44105A1430982 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6DEF044C27B14A3DB42A0DDE;
-			remoteInfo = ZERO_CHECK;
-		};
-		5C3F3370056F41709A098CEC /* PBXContainerItemProxy */ = {
+		C3D5E8DDDEBB4D32AAFF0E78 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 71EE89B77DA44105A1430982 /* Project object */;
 			proxyType = 1;
@@ -116,17 +117,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D2485B100C546B59FE3BBD0 /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		278982BBFA764040B618278C /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = quaternion.hpp; path = include/sciComp_bits/quaternion.hpp; sourceTree = SOURCE_ROOT; };
-		3388DBC22AA146A6BAE22E60 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = intro.hpp; path = include/sciComp_bits/intro.hpp; sourceTree = SOURCE_ROOT; };
-		586AD35F3A8D47138A3AF97E /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		92577882ABD44D73899F86F6 /* sciComp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libsciComp.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		D87D5C0374284A1F99013764 /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = intro.cpp; path = src/intro.cpp; sourceTree = SOURCE_ROOT; };
-		F2A12A48651D499FAF6D2CCB /* /Users/bernardocohen/repos/sciComp/cpp/src/quaternion.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = quaternion.cpp; path = src/quaternion.cpp; sourceTree = SOURCE_ROOT; };
+		03F4081A63644BDF8DF0B1F1 /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = intro.cpp; path = src/intro.cpp; sourceTree = SOURCE_ROOT; };
+		20B94573F91F434F97219EC0 /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		49F32B93966C47469FAF4C86 /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		7368F6D633F948A2907D850F /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/valarray_util.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = valarray_util.hpp; path = include/sciComp_bits/valarray_util.hpp; sourceTree = SOURCE_ROOT; };
+		7622C9B230B5497680A02FDC /* sciComp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libsciComp.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		872D8E99808441BCB70EA4C3 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fft.hpp; path = include/sciComp_bits/fft.hpp; sourceTree = SOURCE_ROOT; };
+		92344C46F04944CFBFF38B06 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = intro.hpp; path = include/sciComp_bits/intro.hpp; sourceTree = SOURCE_ROOT; };
+		AF18F8C875CE4C9A8337B6B8 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = quaternion.hpp; path = include/sciComp_bits/quaternion.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		70309E0C2AD4452696A34383 /* Frameworks */ = {
+		9615CA2FD7FC4FFC82BE8D4A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -136,79 +138,80 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F875BA544B64153ABF09B5C /* src */ = {
+		06462A18E9854DB09935549A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D87D5C0374284A1F99013764 /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */,
-				F2A12A48651D499FAF6D2CCB /* /Users/bernardocohen/repos/sciComp/cpp/src/quaternion.cpp */,
+				7622C9B230B5497680A02FDC /* sciComp */,
 			);
-			name = src;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		57C7808C7CD34730AC85E537 /* sciComp */ = {
+		4A5360D60BEE438A8B402462 /* sciComp_bits */ = {
 			isa = PBXGroup;
 			children = (
-				F8E6CCC517414AD0A0E6AD14 /* include */,
-				1F875BA544B64153ABF09B5C /* src */,
-				586AD35F3A8D47138A3AF97E /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */,
+				872D8E99808441BCB70EA4C3 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft.hpp */,
+				92344C46F04944CFBFF38B06 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */,
+				AF18F8C875CE4C9A8337B6B8 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */,
+				7368F6D633F948A2907D850F /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/valarray_util.hpp */,
+			);
+			name = sciComp_bits;
+			sourceTree = "<group>";
+		};
+		71B7DE275F454E3D8743F7A9 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				F51788A0B9874AF1AC446E72 /* CMake Rules */,
+				49F32B93966C47469FAF4C86 /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		916519CA7DDD4C1CA147B811 /* sciComp */ = {
+			isa = PBXGroup;
+			children = (
+				FE7159CEA90445BABE334DDD /* include */,
+				A18510EA8A034AEBAB42A47D /* src */,
+				20B94573F91F434F97219EC0 /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */,
 			);
 			name = sciComp;
 			sourceTree = "<group>";
 		};
-		60BB1814B8D84B28B44E7CCE /* CMake Rules */ = {
+		A18510EA8A034AEBAB42A47D /* src */ = {
 			isa = PBXGroup;
 			children = (
+				03F4081A63644BDF8DF0B1F1 /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */,
 			);
-			name = "CMake Rules";
+			name = src;
 			sourceTree = "<group>";
 		};
-		7A7A2BF2805C465990E69205 /* Frameworks */ = {
+		A903530D54DE4DEFA77F74C5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		87A98EAEFF2042B4B68F81FF /* sciComp_bits */ = {
+		ABB3959361194359AA0101A2 = {
 			isa = PBXGroup;
 			children = (
-				3388DBC22AA146A6BAE22E60 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */,
-				278982BBFA764040B618278C /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */,
-			);
-			name = sciComp_bits;
-			sourceTree = "<group>";
-		};
-		A3E4313F81A146B38F926F75 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				60BB1814B8D84B28B44E7CCE /* CMake Rules */,
-				1D2485B100C546B59FE3BBD0 /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */,
-			);
-			name = ALL_BUILD;
-			sourceTree = "<group>";
-		};
-		F24930E57CAD4AD4B22BDA1B = {
-			isa = PBXGroup;
-			children = (
-				57C7808C7CD34730AC85E537 /* sciComp */,
-				A3E4313F81A146B38F926F75 /* ALL_BUILD */,
-				F312D91566FF4561898BDCBE /* Products */,
-				7A7A2BF2805C465990E69205 /* Frameworks */,
+				916519CA7DDD4C1CA147B811 /* sciComp */,
+				71B7DE275F454E3D8743F7A9 /* ALL_BUILD */,
+				06462A18E9854DB09935549A /* Products */,
+				A903530D54DE4DEFA77F74C5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		F312D91566FF4561898BDCBE /* Products */ = {
+		F51788A0B9874AF1AC446E72 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
-				92577882ABD44D73899F86F6 /* sciComp */,
 			);
-			name = Products;
+			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		F8E6CCC517414AD0A0E6AD14 /* include */ = {
+		FE7159CEA90445BABE334DDD /* include */ = {
 			isa = PBXGroup;
 			children = (
-				87A98EAEFF2042B4B68F81FF /* sciComp_bits */,
+				4A5360D60BEE438A8B402462 /* sciComp_bits */,
 			);
 			name = include;
 			sourceTree = "<group>";
@@ -218,20 +221,20 @@
 /* Begin PBXNativeTarget section */
 		395DCFDF02384328B0A5B24D /* sciComp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D96A1E3AA8284788AFEA046E /* Build configuration list for PBXNativeTarget "sciComp" */;
+			buildConfigurationList = DACC34DD28A647DAA472DFC7 /* Build configuration list for PBXNativeTarget "sciComp" */;
 			buildPhases = (
-				222477EBE7F14C458406C011 /* Sources */,
-				70309E0C2AD4452696A34383 /* Frameworks */,
+				94B931EDF7084BBC931F321C /* Sources */,
+				9615CA2FD7FC4FFC82BE8D4A /* Frameworks */,
 				81B958E0EE8A26596BC47B3A /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C9BE2736D0684FBA818B8874 /* PBXTargetDependency */,
+				AD5B3B2915554D72B5311DDF /* PBXTargetDependency */,
 			);
 			name = sciComp;
 			productName = sciComp;
-			productReference = 92577882ABD44D73899F86F6 /* sciComp */;
+			productReference = 7622C9B230B5497680A02FDC /* sciComp */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -243,18 +246,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = 0AB0040781684EBD90B85007 /* Build configuration list for PBXProject "scicomp" */;
+			buildConfigurationList = 31E5089D76484EC28B0698A0 /* Build configuration list for PBXProject "scicomp" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				0EC3496AC2B24B969B16B162 /* Debug */,
-				59779DAC62ED4D9B828A157C /* Release */,
-				9BD5C1C51959487AA74B5D33 /* MinSizeRel */,
-				75B4DE39A004424596E2C012 /* RelWithDebInfo */,
+				2B9F5B97B7A54A81AAEF42EC /* Debug */,
+				5991CF76149A402E97291538 /* Release */,
+				9AC1AB892E7E441FB612F9D3 /* MinSizeRel */,
+				22E30E652063475FAACF99AD /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = F24930E57CAD4AD4B22BDA1B;
+			mainGroup = ABB3959361194359AA0101A2;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
@@ -443,193 +446,41 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		222477EBE7F14C458406C011 /* Sources */ = {
+		94B931EDF7084BBC931F321C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A39E9F2A44B54C8A8603A715 /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */,
-				666624B266744051A237AD18 /* /Users/bernardocohen/repos/sciComp/cpp/src/quaternion.cpp */,
+				1197E55EA10F471E8528B573 /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1A3A16AB5AC84839B639788C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6DEF044C27B14A3DB42A0DDE /* ZERO_CHECK */;
-			targetProxy = 5AEF92297B944D1398E640F1 /* PBXContainerItemProxy */;
-		};
-		9AC45BC1FC0E440E84D98435 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9EBC1418917A4253B134FB82 /* ALL_BUILD */;
-			targetProxy = 070D023C35FC44AF9234B21D /* PBXContainerItemProxy */;
-		};
-		A698C69A682C4B98958D34D6 /* PBXTargetDependency */ = {
+		10D0FC0F060049D28BD5C5BD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 395DCFDF02384328B0A5B24D /* sciComp */;
-			targetProxy = 5C3F3370056F41709A098CEC /* PBXContainerItemProxy */;
+			targetProxy = C3D5E8DDDEBB4D32AAFF0E78 /* PBXContainerItemProxy */;
 		};
-		C9BE2736D0684FBA818B8874 /* PBXTargetDependency */ = {
+		AD5B3B2915554D72B5311DDF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6DEF044C27B14A3DB42A0DDE /* ZERO_CHECK */;
-			targetProxy = 1E19606FA05F41BFB4E3FAFE /* PBXContainerItemProxy */;
+			targetProxy = 396D5755BA3D4775957B86DB /* PBXContainerItemProxy */;
+		};
+		E63F89F60F3F40D69FBE0975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EBC1418917A4253B134FB82 /* ALL_BUILD */;
+			targetProxy = B18D31150CA040A3A15580FD /* PBXContainerItemProxy */;
+		};
+		F6D70BCAC76E473DA5364F9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DEF044C27B14A3DB42A0DDE /* ZERO_CHECK */;
+			targetProxy = 27DD39D54F73419B8FFA5CC0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2128A0EE386A4601827A15DF /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",sciComp_EXPORTS,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = sciComp;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		2251D6F1318149F9AED7E2EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		2BFA715EF7964124BE5E1A5A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",sciComp_EXPORTS,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = sciComp;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		35C3831B5EDA47938D12B6B1 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		459AA39AAC024520A2365A53 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode/build;
-			};
-			name = Debug;
-		};
-		51262769F5514F97944EA7E6 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		61CD79ED50C0443288596401 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",sciComp_EXPORTS,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = sciComp;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		71358691A9C24A9C905A9067 /* MinSizeRel */ = {
+		0402A9B077F446EBB7DD218A /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -656,97 +507,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		7D438562F1EB48349342C769 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		80E73A75B2464DCB9F058669 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode/build;
-			};
-			name = RelWithDebInfo;
-		};
-		8607B5A6E5F847A585077C01 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		86F7157E91FB49D3A5EBDC34 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		942089AB31264F31A9B03217 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		A20192145FD0478D97BA099E /* RelWithDebInfo */ = {
+		082C4A1781F146D48BD953AE /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -766,7 +527,44 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		AF5C78FB362C40479E03F502 /* Debug */ = {
+		2FD545957A6E4F1086DF6B74 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",sciComp_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sciComp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		396E7928CCB44105BD649D17 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode/build;
+			};
+			name = MinSizeRel;
+		};
+		4264CCC1C3DB46AB95EA045A /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -784,9 +582,9 @@ fi
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = Debug;
+			name = MinSizeRel;
 		};
-		B5942BAC40E741BAB6BB0223 /* MinSizeRel */ = {
+		448147672B804F6CB1D98BB3 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -806,7 +604,131 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		BA3567985537422FAEC21125 /* Release */ = {
+		5942B0CA78944BD18A4E26DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",sciComp_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sciComp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5EC6D54828B94858817EFFC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",sciComp_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "   -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sciComp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		69ACA6FC4CEF4494ABD2AB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode/build;
+			};
+			name = Debug;
+		};
+		7B745DA549A74ABBB9E6DF6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		815A665E0E2342499B63221B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		89052E9A7523484FA82D1291 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		9A5D18A213A5412BA54A8AA4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -816,7 +738,97 @@ fi
 			};
 			name = Release;
 		};
-		C76C0CD5BF1F4C639609EAA1 /* Debug */ = {
+		A5ADD93D706F409BA3EA32A5 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode/build;
+			};
+			name = RelWithDebInfo;
+		};
+		D559C7DBE33E4F2294581875 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		D57EFB7667E94A3D8F201A79 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E00151D3453C4D429476330A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E7075993A67249939085B187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F38BCF2603F449638102ABA8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -836,17 +848,7 @@ fi
 			};
 			name = Debug;
 		};
-		C8BB94F86E7C46D1BBC3F106 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode/build;
-			};
-			name = MinSizeRel;
-		};
-		ECE949D476AC4550A766C2D1 /* MinSizeRel */ = {
+		F64509F1221E4C83B5D56FE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -858,68 +860,68 @@ fi
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = ("","$(inherited)");
 				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
+				PRODUCT_NAME = ALL_BUILD;
 				SECTORDER_FLAGS = "";
 				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0AB0040781684EBD90B85007 /* Build configuration list for PBXProject "scicomp" */ = {
+		03AF10B53A964A7CAB40A40B /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				459AA39AAC024520A2365A53 /* Debug */,
-				BA3567985537422FAEC21125 /* Release */,
-				C8BB94F86E7C46D1BBC3F106 /* MinSizeRel */,
-				80E73A75B2464DCB9F058669 /* RelWithDebInfo */,
+				F64509F1221E4C83B5D56FE5 /* Debug */,
+				E7075993A67249939085B187 /* Release */,
+				448147672B804F6CB1D98BB3 /* MinSizeRel */,
+				082C4A1781F146D48BD953AE /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		332D842AA16346AAA455D15D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		31E5089D76484EC28B0698A0 /* Build configuration list for PBXProject "scicomp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AF5C78FB362C40479E03F502 /* Debug */,
-				86F7157E91FB49D3A5EBDC34 /* Release */,
-				942089AB31264F31A9B03217 /* MinSizeRel */,
-				51262769F5514F97944EA7E6 /* RelWithDebInfo */,
+				69ACA6FC4CEF4494ABD2AB54 /* Debug */,
+				9A5D18A213A5412BA54A8AA4 /* Release */,
+				396E7928CCB44105BD649D17 /* MinSizeRel */,
+				A5ADD93D706F409BA3EA32A5 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		55D14553892A4B40ABB1A3F4 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		793D1DC13DBF4E2195CC4B33 /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2251D6F1318149F9AED7E2EB /* Debug */,
-				8607B5A6E5F847A585077C01 /* Release */,
-				B5942BAC40E741BAB6BB0223 /* MinSizeRel */,
-				A20192145FD0478D97BA099E /* RelWithDebInfo */,
+				F38BCF2603F449638102ABA8 /* Debug */,
+				7B745DA549A74ABBB9E6DF6C /* Release */,
+				815A665E0E2342499B63221B /* MinSizeRel */,
+				D57EFB7667E94A3D8F201A79 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		CE86ECA9869B4EEB958EE31F /* Build configuration list for PBXAggregateTarget "install" */ = {
+		BB077E4F9DAD4E5E9AF4E95D /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C76C0CD5BF1F4C639609EAA1 /* Debug */,
-				7D438562F1EB48349342C769 /* Release */,
-				ECE949D476AC4550A766C2D1 /* MinSizeRel */,
-				35C3831B5EDA47938D12B6B1 /* RelWithDebInfo */,
+				E00151D3453C4D429476330A /* Debug */,
+				D559C7DBE33E4F2294581875 /* Release */,
+				4264CCC1C3DB46AB95EA045A /* MinSizeRel */,
+				89052E9A7523484FA82D1291 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D96A1E3AA8284788AFEA046E /* Build configuration list for PBXNativeTarget "sciComp" */ = {
+		DACC34DD28A647DAA472DFC7 /* Build configuration list for PBXNativeTarget "sciComp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				61CD79ED50C0443288596401 /* Debug */,
-				2BFA715EF7964124BE5E1A5A /* Release */,
-				71358691A9C24A9C905A9067 /* MinSizeRel */,
-				2128A0EE386A4601827A15DF /* RelWithDebInfo */,
+				5EC6D54828B94858817EFFC3 /* Debug */,
+				5942B0CA78944BD18A4E26DA /* Release */,
+				0402A9B077F446EBB7DD218A /* MinSizeRel */,
+				2FD545957A6E4F1086DF6B74 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

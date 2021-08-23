@@ -1,8 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sciComp.dir/src/intro.cpp.o"
   "CMakeFiles/sciComp.dir/src/intro.cpp.o.d"
-  "CMakeFiles/sciComp.dir/src/quaternion.cpp.o"
-  "CMakeFiles/sciComp.dir/src/quaternion.cpp.o.d"
   "libsciComp.dylib"
   "libsciComp.pdb"
 )

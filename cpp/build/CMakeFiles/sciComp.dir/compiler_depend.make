@@ -227,10 +227,6 @@ CMakeFiles/sciComp.dir/src/intro.cpp.o: ../src/intro.cpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__bit_reference
 
-CMakeFiles/sciComp.dir/src/quaternion.cpp.o: ../src/quaternion.cpp
-
-
-../src/quaternion.cpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/bitset:
 
