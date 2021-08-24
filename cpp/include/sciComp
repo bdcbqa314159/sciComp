@@ -16,5 +16,10 @@
 #include "sciComp_bits/u_alpha.hpp"
 #include "sciComp_bits/chi_beta.hpp"
 #include "sciComp_bits/f_alpha.hpp"
+#include "sciComp_bits/interpolate_2d.hpp"
+#include "sciComp_bits/fft_sin.hpp"
+#include "sciComp_bits/row_col.hpp"
+#include "sciComp_bits/index.hpp"
+#include "sciComp_bits/fish2d_fft.hpp"
 
 #endif

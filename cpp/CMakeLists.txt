@@ -33,6 +33,11 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/u_alpha.hpp
     ${PROJECT_INCLUDE_DIR}/chi_beta.hpp
     ${PROJECT_INCLUDE_DIR}/f_alpha.hpp
+    ${PROJECT_INCLUDE_DIR}/interpolate_2d.hpp
+    ${PROJECT_INCLUDE_DIR}/fft_sin.hpp
+    ${PROJECT_INCLUDE_DIR}/row_col.hpp
+    ${PROJECT_INCLUDE_DIR}/index.hpp
+    ${PROJECT_INCLUDE_DIR}/fish2d_fft.hpp
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
 )

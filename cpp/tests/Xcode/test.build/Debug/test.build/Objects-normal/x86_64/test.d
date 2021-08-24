@@ -17,4 +17,13 @@ dependencies: /Users/bernardocohen/repos/sciComp/cpp/tests/src/test.cpp \
   /usr/local/include/sciComp_bits/./inplace_solve.hpp \
   /usr/local/include/sciComp_bits/u_alpha.hpp \
   /usr/local/include/sciComp_bits/chi_beta.hpp \
-  /usr/local/include/sciComp_bits/f_alpha.hpp
+  /usr/local/include/sciComp_bits/f_alpha.hpp \
+  /usr/local/include/sciComp_bits/interpolate_2d.hpp \
+  /usr/local/include/sciComp_bits/fft_sin.hpp \
+  /usr/local/include/sciComp_bits/./fft.hpp \
+  /usr/local/include/sciComp_bits/row_col.hpp \
+  /usr/local/include/sciComp_bits/index.hpp \
+  /usr/local/include/sciComp_bits/fish2d_fft.hpp \
+  /usr/local/include/sciComp_bits/./fft_sin.hpp \
+  /usr/local/include/sciComp_bits/./tridiag_ldlt.hpp \
+  /usr/local/include/sciComp_bits/./row_col.hpp

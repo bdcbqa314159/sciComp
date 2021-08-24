@@ -248,4 +248,13 @@ CMakeFiles/test.dir/src/test.cpp.o: \
   /usr/local/include/sciComp_bits/u_alpha.hpp \
   /usr/local/include/sciComp_bits/chi_beta.hpp \
   /usr/local/include/sciComp_bits/f_alpha.hpp \
+  /usr/local/include/sciComp_bits/interpolate_2d.hpp \
+  /usr/local/include/sciComp_bits/fft_sin.hpp \
+  /usr/local/include/sciComp_bits/./fft.hpp \
+  /usr/local/include/sciComp_bits/row_col.hpp \
+  /usr/local/include/sciComp_bits/index.hpp \
+  /usr/local/include/sciComp_bits/fish2d_fft.hpp \
+  /usr/local/include/sciComp_bits/./fft_sin.hpp \
+  /usr/local/include/sciComp_bits/./tridiag_ldlt.hpp \
+  /usr/local/include/sciComp_bits/./row_col.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip

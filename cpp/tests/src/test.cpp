@@ -9,6 +9,7 @@
 
 std::complex<double> f_(double x) { return (x<0.5) ? x: 1-x; }
 double u_(double x) { return (1-x*x)/2; }
+double f_(const double& x, const double& y) { return 1;}
 
 int testingQuaternion(){
     
@@ -124,6 +125,33 @@ int testingFiniteElements1D(){
     return 0;
 }
 
+int testingPoisson2D(){
+    
+    size_t m = 64;
+    
+    double h = 2./m;
+    
+    index_type elt (m+1), num (m-1);
+    
+    std::valarray<double> pi_h_f = interpolate(m, f_), b((m-1)*(m-1));
+    
+    for (size_t i = 0; i<m-1; i++){
+        for (size_t j = 0; j<m-1; j++){
+            b[num(i,j)] = h*h*pi_h_f[elt(i+1, j+1)];
+        }
+    }
+    
+    std::valarray<double> uh(0., (m+1)*(m+1)), x = fish2d_fft(m,b);
+    
+    for (size_t i = 0; i<m-1; i++){
+        for (size_t j = 0; j<m-1; j++){
+            uh[elt(i+1, j+1)] = x[num(i,j)];
+        }
+    }
+    
+    return 0;
+}
+
 
 
 
@@ -132,7 +160,9 @@ int main() {
 //    testingQuaternion();
 //    testValArray();
 //    testingFft();
-    testingPoisson1D();
+//    testingPoisson1D();
+//    testingFiniteElements1D();
+    testingPoisson2D();
     
     return 0;
 }

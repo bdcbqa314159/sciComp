@@ -251,8 +251,19 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/sciComp_bits/u_alpha.hpp \
   /usr/local/include/sciComp_bits/chi_beta.hpp \
   /usr/local/include/sciComp_bits/f_alpha.hpp \
+  /usr/local/include/sciComp_bits/interpolate_2d.hpp \
+  /usr/local/include/sciComp_bits/fft_sin.hpp \
+  /usr/local/include/sciComp_bits/fft.hpp \
+  /usr/local/include/sciComp_bits/row_col.hpp \
+  /usr/local/include/sciComp_bits/index.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip
 
+
+/usr/local/include/sciComp_bits/row_col.hpp:
+
+/usr/local/include/sciComp_bits/fft_sin.hpp:
+
+/usr/local/include/sciComp_bits/interpolate_2d.hpp:
 
 /usr/local/include/sciComp_bits/chi_beta.hpp:
 
@@ -677,6 +688,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdint.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h:
+
+/usr/local/include/sciComp_bits/index.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/pthread/qos.h:
 
