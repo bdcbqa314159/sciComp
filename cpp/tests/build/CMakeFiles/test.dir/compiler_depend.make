@@ -256,6 +256,12 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/sciComp_bits/fft.hpp \
   /usr/local/include/sciComp_bits/row_col.hpp \
   /usr/local/include/sciComp_bits/index.hpp \
+  /usr/local/include/sciComp_bits/fish2d_fft.hpp \
+  /usr/local/include/sciComp_bits/fft_sin.hpp \
+  /usr/local/include/sciComp_bits/tridiag_ldlt.hpp \
+  /usr/local/include/sciComp_bits/row_col.hpp \
+  /usr/local/include/sciComp_bits/cg.hpp \
+  /usr/local/include/sciComp_bits/valarray_util.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip
 
 
@@ -641,6 +647,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_intptr_t.h:
 
+/usr/local/include/sciComp_bits/cg.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/system_error:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/string_view:
@@ -686,6 +694,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/wchar.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/stdint.h:
+
+/usr/local/include/sciComp_bits/fish2d_fft.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_int8_t.h:
 

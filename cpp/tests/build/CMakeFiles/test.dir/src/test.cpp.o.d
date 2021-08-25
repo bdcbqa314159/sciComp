@@ -257,4 +257,11 @@ CMakeFiles/test.dir/src/test.cpp.o: \
   /usr/local/include/sciComp_bits/./fft_sin.hpp \
   /usr/local/include/sciComp_bits/./tridiag_ldlt.hpp \
   /usr/local/include/sciComp_bits/./row_col.hpp \
+  /usr/local/include/sciComp_bits/cg.hpp \
+  /usr/local/include/sciComp_bits/./valarray_util.hpp \
+  /usr/local/include/sciComp_bits/eye.hpp \
+  /usr/local/include/sciComp_bits/matrix.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip

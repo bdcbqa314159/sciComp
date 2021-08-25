@@ -38,6 +38,9 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/row_col.hpp
     ${PROJECT_INCLUDE_DIR}/index.hpp
     ${PROJECT_INCLUDE_DIR}/fish2d_fft.hpp
+    ${PROJECT_INCLUDE_DIR}/cg.hpp
+    ${PROJECT_INCLUDE_DIR}/eye.hpp
+    ${PROJECT_INCLUDE_DIR}/matrix.hpp
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
 )

@@ -21,5 +21,8 @@
 #include "sciComp_bits/row_col.hpp"
 #include "sciComp_bits/index.hpp"
 #include "sciComp_bits/fish2d_fft.hpp"
+#include "sciComp_bits/cg.hpp"
+#include "sciComp_bits/eye.hpp"
+#include "sciComp_bits/matrix.hpp"
 
 #endif
