@@ -24,5 +24,9 @@
 #include "sciComp_bits/cg.hpp"
 #include "sciComp_bits/eye.hpp"
 #include "sciComp_bits/matrix.hpp"
+#include "sciComp_bits/element.hpp"
+#include "sciComp_bits/point.hpp"
+#include "sciComp_bits/mesh.hpp"
+#include "sciComp_bits/meas.hpp"
 
 #endif

@@ -264,4 +264,12 @@ CMakeFiles/test.dir/src/test.cpp.o: \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /usr/local/include/sciComp_bits/element.hpp \
+  /usr/local/include/sciComp_bits/point.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  /usr/local/include/sciComp_bits/mesh.hpp \
+  /usr/local/include/sciComp_bits/./point.hpp \
+  /usr/local/include/sciComp_bits/./element.hpp \
+  /usr/local/include/sciComp_bits/meas.hpp \
+  /usr/local/include/sciComp_bits/./mesh.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip

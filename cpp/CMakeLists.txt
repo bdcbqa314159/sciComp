@@ -41,6 +41,10 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/cg.hpp
     ${PROJECT_INCLUDE_DIR}/eye.hpp
     ${PROJECT_INCLUDE_DIR}/matrix.hpp
+    ${PROJECT_INCLUDE_DIR}/element.hpp
+    ${PROJECT_INCLUDE_DIR}/point.hpp
+    ${PROJECT_INCLUDE_DIR}/mesh.hpp
+    ${PROJECT_INCLUDE_DIR}/meas.hpp
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
 )

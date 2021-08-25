@@ -262,8 +262,35 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/sciComp_bits/row_col.hpp \
   /usr/local/include/sciComp_bits/cg.hpp \
   /usr/local/include/sciComp_bits/valarray_util.hpp \
+  /usr/local/include/sciComp_bits/eye.hpp \
+  /usr/local/include/sciComp_bits/matrix.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer \
+  /usr/local/include/sciComp_bits/element.hpp \
+  /usr/local/include/sciComp_bits/point.hpp \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array \
+  /usr/local/include/sciComp_bits/mesh.hpp \
+  /usr/local/include/sciComp_bits/point.hpp \
+  /usr/local/include/sciComp_bits/element.hpp \
+  /usr/local/include/sciComp_bits/meas.hpp \
+  /usr/local/include/sciComp_bits/mesh.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip
 
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array:
+
+/usr/local/include/sciComp_bits/point.hpp:
+
+/usr/local/include/sciComp_bits/element.hpp:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__split_buffer:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/vector:
+
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/list:
+
+/usr/local/include/sciComp_bits/eye.hpp:
 
 /usr/local/include/sciComp_bits/row_col.hpp:
 
@@ -278,6 +305,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /usr/local/include/sciComp_bits/tridiag_ldlt.hpp:
 
 /usr/local/include/sciComp_bits/mass.hpp:
+
+/usr/local/include/sciComp_bits/meas.hpp:
 
 /usr/local/include/sciComp_bits/interpolate_1d.hpp:
 
@@ -322,6 +351,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_suseconds_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_useconds_t.h:
+
+/usr/local/include/sciComp_bits/mesh.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_nlink_t.h:
 
@@ -720,6 +751,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_sigset_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/__tuple:
+
+/usr/local/include/sciComp_bits/matrix.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_pthread/_pthread_cond_t.h:
 

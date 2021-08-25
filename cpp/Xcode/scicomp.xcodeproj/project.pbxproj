@@ -9,7 +9,7 @@
 /* Begin PBXAggregateTarget section */
 		6DEF044C27B14A3DB42A0DDE /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 0FD646AF47964E0480C369E5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = FF053DD6619B440B8BD29D45 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
 				CEFDD2419DB89B966C8371BE /* Generate CMakeFiles/ZERO_CHECK */,
 			);
@@ -20,25 +20,25 @@
 		};
 		9EBC1418917A4253B134FB82 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = DCAB7528812E400D9D82FFF2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = F22625A4D1DD410DB8D55E99 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
 				E56624D794D75988FB66B0D6 /* Generate CMakeFiles/ALL_BUILD */,
 			);
 			dependencies = (
-				5ED388CCEF0C47D499E8D5B7 /* PBXTargetDependency */,
-				2F79C4F2B54D47A9A4F9380A /* PBXTargetDependency */,
+				FD4D5FF2A0B64C859F52C71F /* PBXTargetDependency */,
+				05A44F5CCFB5489982256D0D /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
 		};
 		DB5DBD7591454E4F9A9A7B5A /* install */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = CF23123656204235989D88F8 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildConfigurationList = BBF1C5C1BA3A4DEFABF29D0B /* Build configuration list for PBXAggregateTarget "install" */;
 			buildPhases = (
 				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
 			);
 			dependencies = (
-				08F383D025E442359B126FAE /* PBXTargetDependency */,
+				C4E9411CF9B64DD3B66AAF34 /* PBXTargetDependency */,
 			);
 			name = install;
 			productName = install;
@@ -46,56 +46,60 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		02BCF647684B429A9B813047 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft_sin.hpp */ = {isa = PBXBuildFile; fileRef = E13E35A109CC40DA8F790956 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft_sin.hpp */; };
-		06EBE38964B7449B935FF814 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/u_alpha.hpp */ = {isa = PBXBuildFile; fileRef = 6D716FCB8A824DC4A259A388 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/u_alpha.hpp */; };
-		0D3880D5970E433E9869DAD9 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/valarray_util.hpp */ = {isa = PBXBuildFile; fileRef = ED411F79C01D4B569051B98F /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/valarray_util.hpp */; };
-		15973B2C5858427C83D2FF0F /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/index.hpp */ = {isa = PBXBuildFile; fileRef = 23D859D6927348C38EB7D2B6 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/index.hpp */; };
-		1D3349640E9D481886195279 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/f_alpha.hpp */ = {isa = PBXBuildFile; fileRef = 12E547013D184F439BC2C278 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/f_alpha.hpp */; };
-		1EEA7DE7EE9547BEBEB17D03 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_factorize.hpp */ = {isa = PBXBuildFile; fileRef = 5CE5672015F742E38CC61848 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_factorize.hpp */; };
-		20879F6E2F2648CBA22189CA /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft.hpp */ = {isa = PBXBuildFile; fileRef = C31FAC2590C14BBD8C73DE70 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft.hpp */; };
-		2ED778E360A34670B2EA3296 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/energy.hpp */ = {isa = PBXBuildFile; fileRef = 05ECEA36EF914215A2D3C98C /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/energy.hpp */; };
-		4F161734881B43E092F4A66B /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_1d.hpp */ = {isa = PBXBuildFile; fileRef = 413C0200A94A426FB47BD5D6 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_1d.hpp */; };
-		810D11C74AE44FD788851B30 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_solve.hpp */ = {isa = PBXBuildFile; fileRef = 389F10011D044F598C09ABAB /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_solve.hpp */; };
-		8CCB5497795C4693A5312947 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/chi_beta.hpp */ = {isa = PBXBuildFile; fileRef = B6F2013AA4D14B0DBB5EDE6B /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/chi_beta.hpp */; };
-		9302F25FAB3047B188C9B6D8 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag.hpp */ = {isa = PBXBuildFile; fileRef = 29D40AC72DE8497B9372446F /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag.hpp */; };
-		9736C82CDEF9490D933CB1C3 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fish2d_fft.hpp */ = {isa = PBXBuildFile; fileRef = 2810CD2DA4914E479FDB71C5 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fish2d_fft.hpp */; };
-		993ECE8DF14C488DBDE0D07A /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */ = {isa = PBXBuildFile; fileRef = 4BDC28E6407C4CAEAEEA1EFF /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */; };
-		9B0CF2C8E4EF477DB1EEEBD6 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_2d.hpp */ = {isa = PBXBuildFile; fileRef = 2986EC6300414DA7958C6F91 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_2d.hpp */; };
-		9F4645CB51904240878A0F21 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/row_col.hpp */ = {isa = PBXBuildFile; fileRef = CD2D7DCAC41449F3AE7ADCFC /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/row_col.hpp */; };
-		AA61B753CC2545E28C330DE5 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/mass.hpp */ = {isa = PBXBuildFile; fileRef = 035D182292FE4C7E9DF00233 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/mass.hpp */; };
-		AC0EC2D066AC44E6BEE3AE1F /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag_ldlt.hpp */ = {isa = PBXBuildFile; fileRef = 29B78A5FE5E940289EC20B35 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag_ldlt.hpp */; };
-		AF3958677F3D4535B276745A /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/matrix.hpp */ = {isa = PBXBuildFile; fileRef = 21D7F6F7415D43E1B35ABD41 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/matrix.hpp */; };
-		AF9FADC344AD40958E5B8AEC /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/eye.hpp */ = {isa = PBXBuildFile; fileRef = 10974B411B3D4E7DB9251C2D /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/eye.hpp */; };
-		B75239396F9344768A2A9614 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/range.hpp */ = {isa = PBXBuildFile; fileRef = 4EF86D4E64AA467EB88C57E1 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/range.hpp */; };
-		BAB528E09A1A4590BAFA9033 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/cg.hpp */ = {isa = PBXBuildFile; fileRef = 80154CC243194FE18681BEBB /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/cg.hpp */; };
-		D4F35D59EB4A4FEC88FE2E6C /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */ = {isa = PBXBuildFile; fileRef = 213A4E4524E34892890BA318 /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */; };
-		E1CB93C547994B20B4FEF17E /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */ = {isa = PBXBuildFile; fileRef = 6B00BA67633D42D4AD020341 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */; };
-		E444F1FDA4584212B1A5D07B /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 42DFA6B7A78D41E2A96436F7 /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */; };
+		00FB728930A3440FB5961FAF /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/meas.hpp */ = {isa = PBXBuildFile; fileRef = 9CF12728640A45D9BDD06035 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/meas.hpp */; };
+		12C6B67F7C924395B3D1EC69 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft_sin.hpp */ = {isa = PBXBuildFile; fileRef = 37D011754BC4413EBF138318 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft_sin.hpp */; };
+		21E9D081C9D64521BBB9BFB4 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/eye.hpp */ = {isa = PBXBuildFile; fileRef = FC173265DD674DB9A03FA342 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/eye.hpp */; };
+		246279B06D17436984C998F4 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_factorize.hpp */ = {isa = PBXBuildFile; fileRef = FD16B1FBBEE049EC88888559 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_factorize.hpp */; };
+		27E579E5EF8548DFBE86DAF0 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/point.hpp */ = {isa = PBXBuildFile; fileRef = 9B685402B0D5443893C9411C /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/point.hpp */; };
+		2F04A1E6462B429AB98BCA0B /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/element.hpp */ = {isa = PBXBuildFile; fileRef = 2A3E8111EC284174A76E7E38 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/element.hpp */; };
+		329DB674973146338E5AC532 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/valarray_util.hpp */ = {isa = PBXBuildFile; fileRef = C98FD5850B8F4882AD70C91A /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/valarray_util.hpp */; };
+		371F1083702D4C42B05596F7 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/energy.hpp */ = {isa = PBXBuildFile; fileRef = D08B2157C6274259A227A58A /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/energy.hpp */; };
+		40ACE75F0E7E4EFEA17777A8 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/chi_beta.hpp */ = {isa = PBXBuildFile; fileRef = A911D07731FE439FB888D089 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/chi_beta.hpp */; };
+		4C2FE5676D3F43DF85E73289 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/mass.hpp */ = {isa = PBXBuildFile; fileRef = A5B54F4EEDEF4B8B9506BFB4 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/mass.hpp */; };
+		5F2EE84D7D844F1BBA665B96 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_solve.hpp */ = {isa = PBXBuildFile; fileRef = A13DEA908C2E4E968C2765DB /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_solve.hpp */; };
+		69058377A6D9499295DD909B /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_1d.hpp */ = {isa = PBXBuildFile; fileRef = 896FBF564C3941AC820E5110 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_1d.hpp */; };
+		7666D125B49E484EA458F692 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/mesh.hpp */ = {isa = PBXBuildFile; fileRef = 9BAB2CC05C314EE5B4D7F738 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/mesh.hpp */; };
+		79E5122050AD4BA688219E02 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/u_alpha.hpp */ = {isa = PBXBuildFile; fileRef = D11A48913CD049D284145199 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/u_alpha.hpp */; };
+		896397C9172C423EB959B275 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_2d.hpp */ = {isa = PBXBuildFile; fileRef = 2190704360A248A786153516 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_2d.hpp */; };
+		8A5A58870279425D8E12A2C4 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */ = {isa = PBXBuildFile; fileRef = F2CBA5F646DA4A518C7446C2 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */; };
+		8C3D0902C36F48BBB38EA9A5 /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */ = {isa = PBXBuildFile; fileRef = 6FA7123D428F4673B74CBEFD /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */; };
+		8D26079A8D2147F58002A96D /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/row_col.hpp */ = {isa = PBXBuildFile; fileRef = 476C3836389A4B0E8A7F05EB /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/row_col.hpp */; };
+		8E599038AED14F84B5153CA2 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/range.hpp */ = {isa = PBXBuildFile; fileRef = 17CA83919A1C491D9B4FF4B8 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/range.hpp */; };
+		94627E9C99F349A2BB9EE7A0 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag.hpp */ = {isa = PBXBuildFile; fileRef = BF5B408A4DF640EC8FD7466A /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag.hpp */; };
+		A0F2833741EA4DA992B68398 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/matrix.hpp */ = {isa = PBXBuildFile; fileRef = E5B17F1920C0432088EA1C2B /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/matrix.hpp */; };
+		AC9E524598DA4B3DA8EC0BB7 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/f_alpha.hpp */ = {isa = PBXBuildFile; fileRef = C69E708BC265471DB28DC05B /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/f_alpha.hpp */; };
+		ADB62FC78E5048E79D79F2F9 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */ = {isa = PBXBuildFile; fileRef = 0CEC512A26E84DF9BF55B7DD /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */; };
+		C6A711F45244467C99B0120A /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft.hpp */ = {isa = PBXBuildFile; fileRef = B1A2167D079E4A2DA21B286B /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft.hpp */; };
+		DAD39DD9F7264A378ED49348 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/index.hpp */ = {isa = PBXBuildFile; fileRef = CAD4E57254A744B6BEC02EBA /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/index.hpp */; };
+		E16B1E55B67644409544636D /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fish2d_fft.hpp */ = {isa = PBXBuildFile; fileRef = 56BED773B736448B9DCB1CCC /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fish2d_fft.hpp */; };
+		E1D7E94497104E4CA4BCB639 /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 447E6D63FCD7436680EDDAEC /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */; };
+		F1155BA76AF840A2A436736C /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag_ldlt.hpp */ = {isa = PBXBuildFile; fileRef = C2665A2883A04C5685845FE7 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag_ldlt.hpp */; };
+		FDFFA6C8D125499B808E8091 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/cg.hpp */ = {isa = PBXBuildFile; fileRef = 4975B8AC48B4480598C1696C /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/cg.hpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		5574334ECA0949DBBAAE8C3D /* Debug */ = {
+		04C204CBEDC04F5A933DDC61 /* Debug */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Debug;
 		};
-		5FDDE51752A649C3BB4E2024 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		B229E1227CE5435FB4028B0F /* Release */ = {
+		862E692CA66E4AC28542DF6D /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		E636BBE19840415B8659E39B /* MinSizeRel */ = {
+		9EBB8E0332024925A37C01D7 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		ACF804F543FB42119B79C4B3 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
@@ -105,28 +109,28 @@
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		5BA03A5F96DE42328718264F /* PBXContainerItemProxy */ = {
+		4C90F69B68344BEF8A62B62E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 71EE89B77DA44105A1430982 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6DEF044C27B14A3DB42A0DDE;
 			remoteInfo = ZERO_CHECK;
 		};
-		5D6FDAFA96C8423C8E26888E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 71EE89B77DA44105A1430982 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6DEF044C27B14A3DB42A0DDE;
-			remoteInfo = ZERO_CHECK;
-		};
-		6C465B5E2A5B479A96A19F45 /* PBXContainerItemProxy */ = {
+		81BEFA99731043728505185E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 71EE89B77DA44105A1430982 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9EBC1418917A4253B134FB82;
 			remoteInfo = ALL_BUILD;
 		};
-		FC87CEA4F3B244B78CA50D59 /* PBXContainerItemProxy */ = {
+		B0CD4FF744D24C00B6F69B27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71EE89B77DA44105A1430982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DEF044C27B14A3DB42A0DDE;
+			remoteInfo = ZERO_CHECK;
+		};
+		CA45BC2E671B497288C0C6D5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 71EE89B77DA44105A1430982 /* Project object */;
 			proxyType = 1;
@@ -136,37 +140,41 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		035D182292FE4C7E9DF00233 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/mass.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mass.hpp; path = include/sciComp_bits/mass.hpp; sourceTree = SOURCE_ROOT; };
-		05ECEA36EF914215A2D3C98C /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/energy.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = energy.hpp; path = include/sciComp_bits/energy.hpp; sourceTree = SOURCE_ROOT; };
-		0A897CFE248E4F6CB4090D26 /* sciComp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libsciComp.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
-		10974B411B3D4E7DB9251C2D /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/eye.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = eye.hpp; path = include/sciComp_bits/eye.hpp; sourceTree = SOURCE_ROOT; };
-		12E547013D184F439BC2C278 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/f_alpha.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = f_alpha.hpp; path = include/sciComp_bits/f_alpha.hpp; sourceTree = SOURCE_ROOT; };
-		213A4E4524E34892890BA318 /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = intro.cpp; path = src/intro.cpp; sourceTree = SOURCE_ROOT; };
-		21D7F6F7415D43E1B35ABD41 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/matrix.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix.hpp; path = include/sciComp_bits/matrix.hpp; sourceTree = SOURCE_ROOT; };
-		23D859D6927348C38EB7D2B6 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/index.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = index.hpp; path = include/sciComp_bits/index.hpp; sourceTree = SOURCE_ROOT; };
-		2810CD2DA4914E479FDB71C5 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fish2d_fft.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fish2d_fft.hpp; path = include/sciComp_bits/fish2d_fft.hpp; sourceTree = SOURCE_ROOT; };
-		2986EC6300414DA7958C6F91 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = interpolate_2d.hpp; path = include/sciComp_bits/interpolate_2d.hpp; sourceTree = SOURCE_ROOT; };
-		29B78A5FE5E940289EC20B35 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag_ldlt.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tridiag_ldlt.hpp; path = include/sciComp_bits/tridiag_ldlt.hpp; sourceTree = SOURCE_ROOT; };
-		29D40AC72DE8497B9372446F /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tridiag.hpp; path = include/sciComp_bits/tridiag.hpp; sourceTree = SOURCE_ROOT; };
-		389F10011D044F598C09ABAB /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_solve.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = inplace_solve.hpp; path = include/sciComp_bits/inplace_solve.hpp; sourceTree = SOURCE_ROOT; };
-		413C0200A94A426FB47BD5D6 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_1d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = interpolate_1d.hpp; path = include/sciComp_bits/interpolate_1d.hpp; sourceTree = SOURCE_ROOT; };
-		42DFA6B7A78D41E2A96436F7 /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		4BDC28E6407C4CAEAEEA1EFF /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = quaternion.hpp; path = include/sciComp_bits/quaternion.hpp; sourceTree = SOURCE_ROOT; };
-		4EF86D4E64AA467EB88C57E1 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/range.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = range.hpp; path = include/sciComp_bits/range.hpp; sourceTree = SOURCE_ROOT; };
-		5CE5672015F742E38CC61848 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_factorize.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = inplace_factorize.hpp; path = include/sciComp_bits/inplace_factorize.hpp; sourceTree = SOURCE_ROOT; };
-		6B00BA67633D42D4AD020341 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = intro.hpp; path = include/sciComp_bits/intro.hpp; sourceTree = SOURCE_ROOT; };
-		6D716FCB8A824DC4A259A388 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/u_alpha.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = u_alpha.hpp; path = include/sciComp_bits/u_alpha.hpp; sourceTree = SOURCE_ROOT; };
-		7B1FD54EDC5A49969515BF8A /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		80154CC243194FE18681BEBB /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/cg.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cg.hpp; path = include/sciComp_bits/cg.hpp; sourceTree = SOURCE_ROOT; };
-		B6F2013AA4D14B0DBB5EDE6B /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/chi_beta.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = chi_beta.hpp; path = include/sciComp_bits/chi_beta.hpp; sourceTree = SOURCE_ROOT; };
-		C31FAC2590C14BBD8C73DE70 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fft.hpp; path = include/sciComp_bits/fft.hpp; sourceTree = SOURCE_ROOT; };
-		CD2D7DCAC41449F3AE7ADCFC /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/row_col.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = row_col.hpp; path = include/sciComp_bits/row_col.hpp; sourceTree = SOURCE_ROOT; };
-		E13E35A109CC40DA8F790956 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft_sin.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fft_sin.hpp; path = include/sciComp_bits/fft_sin.hpp; sourceTree = SOURCE_ROOT; };
-		ED411F79C01D4B569051B98F /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/valarray_util.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = valarray_util.hpp; path = include/sciComp_bits/valarray_util.hpp; sourceTree = SOURCE_ROOT; };
+		0CEC512A26E84DF9BF55B7DD /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = quaternion.hpp; path = include/sciComp_bits/quaternion.hpp; sourceTree = SOURCE_ROOT; };
+		17CA83919A1C491D9B4FF4B8 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/range.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = range.hpp; path = include/sciComp_bits/range.hpp; sourceTree = SOURCE_ROOT; };
+		2190704360A248A786153516 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_2d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = interpolate_2d.hpp; path = include/sciComp_bits/interpolate_2d.hpp; sourceTree = SOURCE_ROOT; };
+		2A3E8111EC284174A76E7E38 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/element.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = element.hpp; path = include/sciComp_bits/element.hpp; sourceTree = SOURCE_ROOT; };
+		37D011754BC4413EBF138318 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft_sin.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fft_sin.hpp; path = include/sciComp_bits/fft_sin.hpp; sourceTree = SOURCE_ROOT; };
+		403607897A1E4EF0B863BAA2 /* sciComp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libsciComp.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		447E6D63FCD7436680EDDAEC /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		476C3836389A4B0E8A7F05EB /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/row_col.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = row_col.hpp; path = include/sciComp_bits/row_col.hpp; sourceTree = SOURCE_ROOT; };
+		4975B8AC48B4480598C1696C /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/cg.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = cg.hpp; path = include/sciComp_bits/cg.hpp; sourceTree = SOURCE_ROOT; };
+		527D557DD61D4C5B9A20CE2B /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		56BED773B736448B9DCB1CCC /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fish2d_fft.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fish2d_fft.hpp; path = include/sciComp_bits/fish2d_fft.hpp; sourceTree = SOURCE_ROOT; };
+		6FA7123D428F4673B74CBEFD /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = intro.cpp; path = src/intro.cpp; sourceTree = SOURCE_ROOT; };
+		896FBF564C3941AC820E5110 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_1d.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = interpolate_1d.hpp; path = include/sciComp_bits/interpolate_1d.hpp; sourceTree = SOURCE_ROOT; };
+		9B685402B0D5443893C9411C /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/point.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = point.hpp; path = include/sciComp_bits/point.hpp; sourceTree = SOURCE_ROOT; };
+		9BAB2CC05C314EE5B4D7F738 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/mesh.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mesh.hpp; path = include/sciComp_bits/mesh.hpp; sourceTree = SOURCE_ROOT; };
+		9CF12728640A45D9BDD06035 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/meas.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = meas.hpp; path = include/sciComp_bits/meas.hpp; sourceTree = SOURCE_ROOT; };
+		A13DEA908C2E4E968C2765DB /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_solve.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = inplace_solve.hpp; path = include/sciComp_bits/inplace_solve.hpp; sourceTree = SOURCE_ROOT; };
+		A5B54F4EEDEF4B8B9506BFB4 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/mass.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = mass.hpp; path = include/sciComp_bits/mass.hpp; sourceTree = SOURCE_ROOT; };
+		A911D07731FE439FB888D089 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/chi_beta.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = chi_beta.hpp; path = include/sciComp_bits/chi_beta.hpp; sourceTree = SOURCE_ROOT; };
+		B1A2167D079E4A2DA21B286B /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = fft.hpp; path = include/sciComp_bits/fft.hpp; sourceTree = SOURCE_ROOT; };
+		BF5B408A4DF640EC8FD7466A /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tridiag.hpp; path = include/sciComp_bits/tridiag.hpp; sourceTree = SOURCE_ROOT; };
+		C2665A2883A04C5685845FE7 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag_ldlt.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = tridiag_ldlt.hpp; path = include/sciComp_bits/tridiag_ldlt.hpp; sourceTree = SOURCE_ROOT; };
+		C69E708BC265471DB28DC05B /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/f_alpha.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = f_alpha.hpp; path = include/sciComp_bits/f_alpha.hpp; sourceTree = SOURCE_ROOT; };
+		C98FD5850B8F4882AD70C91A /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/valarray_util.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = valarray_util.hpp; path = include/sciComp_bits/valarray_util.hpp; sourceTree = SOURCE_ROOT; };
+		CAD4E57254A744B6BEC02EBA /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/index.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = index.hpp; path = include/sciComp_bits/index.hpp; sourceTree = SOURCE_ROOT; };
+		D08B2157C6274259A227A58A /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/energy.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = energy.hpp; path = include/sciComp_bits/energy.hpp; sourceTree = SOURCE_ROOT; };
+		D11A48913CD049D284145199 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/u_alpha.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = u_alpha.hpp; path = include/sciComp_bits/u_alpha.hpp; sourceTree = SOURCE_ROOT; };
+		E5B17F1920C0432088EA1C2B /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/matrix.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = matrix.hpp; path = include/sciComp_bits/matrix.hpp; sourceTree = SOURCE_ROOT; };
+		F2CBA5F646DA4A518C7446C2 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = intro.hpp; path = include/sciComp_bits/intro.hpp; sourceTree = SOURCE_ROOT; };
+		FC173265DD674DB9A03FA342 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/eye.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = eye.hpp; path = include/sciComp_bits/eye.hpp; sourceTree = SOURCE_ROOT; };
+		FD16B1FBBEE049EC88888559 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_factorize.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = inplace_factorize.hpp; path = include/sciComp_bits/inplace_factorize.hpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		28EDC719C90143C78CD82B0D /* Frameworks */ = {
+		1C732E1D24294053A0B518F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -176,101 +184,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21458D6E27D24CA594FFC62A /* sciComp */ = {
+		12A6D244BFB1440A9FF68DB1 /* sciComp_bits */ = {
 			isa = PBXGroup;
 			children = (
-				A925E7C83A9D4CD992553660 /* include */,
-				D013F1C6AA5A4DEC941AD73F /* src */,
-				42DFA6B7A78D41E2A96436F7 /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */,
+				4975B8AC48B4480598C1696C /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/cg.hpp */,
+				A911D07731FE439FB888D089 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/chi_beta.hpp */,
+				2A3E8111EC284174A76E7E38 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/element.hpp */,
+				D08B2157C6274259A227A58A /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/energy.hpp */,
+				FC173265DD674DB9A03FA342 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/eye.hpp */,
+				C69E708BC265471DB28DC05B /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/f_alpha.hpp */,
+				B1A2167D079E4A2DA21B286B /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft.hpp */,
+				37D011754BC4413EBF138318 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft_sin.hpp */,
+				56BED773B736448B9DCB1CCC /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fish2d_fft.hpp */,
+				CAD4E57254A744B6BEC02EBA /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/index.hpp */,
+				FD16B1FBBEE049EC88888559 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_factorize.hpp */,
+				A13DEA908C2E4E968C2765DB /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_solve.hpp */,
+				896FBF564C3941AC820E5110 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_1d.hpp */,
+				2190704360A248A786153516 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_2d.hpp */,
+				F2CBA5F646DA4A518C7446C2 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */,
+				A5B54F4EEDEF4B8B9506BFB4 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/mass.hpp */,
+				E5B17F1920C0432088EA1C2B /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/matrix.hpp */,
+				9CF12728640A45D9BDD06035 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/meas.hpp */,
+				9BAB2CC05C314EE5B4D7F738 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/mesh.hpp */,
+				9B685402B0D5443893C9411C /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/point.hpp */,
+				0CEC512A26E84DF9BF55B7DD /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */,
+				17CA83919A1C491D9B4FF4B8 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/range.hpp */,
+				476C3836389A4B0E8A7F05EB /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/row_col.hpp */,
+				BF5B408A4DF640EC8FD7466A /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag.hpp */,
+				C2665A2883A04C5685845FE7 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag_ldlt.hpp */,
+				D11A48913CD049D284145199 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/u_alpha.hpp */,
+				C98FD5850B8F4882AD70C91A /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/valarray_util.hpp */,
 			);
-			name = sciComp;
+			name = sciComp_bits;
 			sourceTree = "<group>";
 		};
-		4514A343C4A544B082B1650B /* Frameworks */ = {
+		29FC30D3A5784A7092B60044 = {
 			isa = PBXGroup;
 			children = (
+				411648025C6D436692F3DE24 /* sciComp */,
+				BC252AB0EB714C30A28AB810 /* ALL_BUILD */,
+				D7ABA5D23E944D3EBB08CFD0 /* Products */,
+				C2C6F7D3AC3148F89050A8F7 /* Frameworks */,
 			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A925E7C83A9D4CD992553660 /* include */ = {
+		3368C1BDFF644AC8A535AC47 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				FDD66CA39D514DAE9D45A7A1 /* sciComp_bits */,
+				12A6D244BFB1440A9FF68DB1 /* sciComp_bits */,
 			);
 			name = include;
 			sourceTree = "<group>";
 		};
-		BCB5571D9D934F40A0133CA4 /* ALL_BUILD */ = {
+		411648025C6D436692F3DE24 /* sciComp */ = {
 			isa = PBXGroup;
 			children = (
-				CFD7D00C5E32417D82F9D4B7 /* CMake Rules */,
-				7B1FD54EDC5A49969515BF8A /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */,
+				3368C1BDFF644AC8A535AC47 /* include */,
+				82FF52A164904FD2812FCCBD /* src */,
+				447E6D63FCD7436680EDDAEC /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */,
 			);
-			name = ALL_BUILD;
+			name = sciComp;
 			sourceTree = "<group>";
 		};
-		CFD7D00C5E32417D82F9D4B7 /* CMake Rules */ = {
+		553FE298C0CA44A08393B13D /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		D013F1C6AA5A4DEC941AD73F /* src */ = {
+		82FF52A164904FD2812FCCBD /* src */ = {
 			isa = PBXGroup;
 			children = (
-				213A4E4524E34892890BA318 /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */,
+				6FA7123D428F4673B74CBEFD /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */,
 			);
 			name = src;
 			sourceTree = "<group>";
 		};
-		D038C727BA7A43198BA1F1A4 = {
+		BC252AB0EB714C30A28AB810 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				21458D6E27D24CA594FFC62A /* sciComp */,
-				BCB5571D9D934F40A0133CA4 /* ALL_BUILD */,
-				D4DA8A4457EA429A82ABC6C7 /* Products */,
-				4514A343C4A544B082B1650B /* Frameworks */,
+				553FE298C0CA44A08393B13D /* CMake Rules */,
+				527D557DD61D4C5B9A20CE2B /* /Users/bernardocohen/repos/sciComp/cpp/CMakeLists.txt */,
 			);
+			name = ALL_BUILD;
 			sourceTree = "<group>";
 		};
-		D4DA8A4457EA429A82ABC6C7 /* Products */ = {
+		C2C6F7D3AC3148F89050A8F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				0A897CFE248E4F6CB4090D26 /* sciComp */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7ABA5D23E944D3EBB08CFD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				403607897A1E4EF0B863BAA2 /* sciComp */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		FDD66CA39D514DAE9D45A7A1 /* sciComp_bits */ = {
-			isa = PBXGroup;
-			children = (
-				80154CC243194FE18681BEBB /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/cg.hpp */,
-				B6F2013AA4D14B0DBB5EDE6B /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/chi_beta.hpp */,
-				05ECEA36EF914215A2D3C98C /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/energy.hpp */,
-				10974B411B3D4E7DB9251C2D /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/eye.hpp */,
-				12E547013D184F439BC2C278 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/f_alpha.hpp */,
-				C31FAC2590C14BBD8C73DE70 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft.hpp */,
-				E13E35A109CC40DA8F790956 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fft_sin.hpp */,
-				2810CD2DA4914E479FDB71C5 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/fish2d_fft.hpp */,
-				23D859D6927348C38EB7D2B6 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/index.hpp */,
-				5CE5672015F742E38CC61848 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_factorize.hpp */,
-				389F10011D044F598C09ABAB /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/inplace_solve.hpp */,
-				413C0200A94A426FB47BD5D6 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_1d.hpp */,
-				2986EC6300414DA7958C6F91 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/interpolate_2d.hpp */,
-				6B00BA67633D42D4AD020341 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/intro.hpp */,
-				035D182292FE4C7E9DF00233 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/mass.hpp */,
-				21D7F6F7415D43E1B35ABD41 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/matrix.hpp */,
-				4BDC28E6407C4CAEAEEA1EFF /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/quaternion.hpp */,
-				4EF86D4E64AA467EB88C57E1 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/range.hpp */,
-				CD2D7DCAC41449F3AE7ADCFC /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/row_col.hpp */,
-				29D40AC72DE8497B9372446F /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag.hpp */,
-				29B78A5FE5E940289EC20B35 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/tridiag_ldlt.hpp */,
-				6D716FCB8A824DC4A259A388 /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/u_alpha.hpp */,
-				ED411F79C01D4B569051B98F /* /Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits/valarray_util.hpp */,
-			);
-			name = sciComp_bits;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,20 +290,20 @@
 /* Begin PBXNativeTarget section */
 		395DCFDF02384328B0A5B24D /* sciComp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBA09465F9554AAE96EACED8 /* Build configuration list for PBXNativeTarget "sciComp" */;
+			buildConfigurationList = EBA5E393BBE846139569EBCB /* Build configuration list for PBXNativeTarget "sciComp" */;
 			buildPhases = (
-				B34A79658B5E40B0B4AC8CE8 /* Sources */,
-				28EDC719C90143C78CD82B0D /* Frameworks */,
+				6CA6C287F99B42968F73546F /* Sources */,
+				1C732E1D24294053A0B518F3 /* Frameworks */,
 				81B958E0EE8A26596BC47B3A /* CMake PostBuild Rules */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				493B5BF619B64180B8A57DFA /* PBXTargetDependency */,
+				CABEE5C8823F4416A8606D1E /* PBXTargetDependency */,
 			);
 			name = sciComp;
 			productName = sciComp;
-			productReference = 0A897CFE248E4F6CB4090D26 /* sciComp */;
+			productReference = 403607897A1E4EF0B863BAA2 /* sciComp */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -303,18 +315,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1250;
 			};
-			buildConfigurationList = F47182B3C1F14D299260B6FE /* Build configuration list for PBXProject "scicomp" */;
+			buildConfigurationList = 7A363B49A18D4106B423D1F1 /* Build configuration list for PBXProject "scicomp" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				5574334ECA0949DBBAAE8C3D /* Debug */,
-				B229E1227CE5435FB4028B0F /* Release */,
-				E636BBE19840415B8659E39B /* MinSizeRel */,
-				5FDDE51752A649C3BB4E2024 /* RelWithDebInfo */,
+				04C204CBEDC04F5A933DDC61 /* Debug */,
+				862E692CA66E4AC28542DF6D /* Release */,
+				ACF804F543FB42119B79C4B3 /* MinSizeRel */,
+				9EBB8E0332024925A37C01D7 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = D038C727BA7A43198BA1F1A4;
+			mainGroup = 29FC30D3A5784A7092B60044;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
@@ -503,178 +515,41 @@ fi
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B34A79658B5E40B0B4AC8CE8 /* Sources */ = {
+		6CA6C287F99B42968F73546F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F35D59EB4A4FEC88FE2E6C /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */,
+				8C3D0902C36F48BBB38EA9A5 /* /Users/bernardocohen/repos/sciComp/cpp/src/intro.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		08F383D025E442359B126FAE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9EBC1418917A4253B134FB82 /* ALL_BUILD */;
-			targetProxy = 6C465B5E2A5B479A96A19F45 /* PBXContainerItemProxy */;
-		};
-		2F79C4F2B54D47A9A4F9380A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6DEF044C27B14A3DB42A0DDE /* ZERO_CHECK */;
-			targetProxy = 5D6FDAFA96C8423C8E26888E /* PBXContainerItemProxy */;
-		};
-		493B5BF619B64180B8A57DFA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6DEF044C27B14A3DB42A0DDE /* ZERO_CHECK */;
-			targetProxy = 5BA03A5F96DE42328718264F /* PBXContainerItemProxy */;
-		};
-		5ED388CCEF0C47D499E8D5B7 /* PBXTargetDependency */ = {
+		05A44F5CCFB5489982256D0D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 395DCFDF02384328B0A5B24D /* sciComp */;
-			targetProxy = FC87CEA4F3B244B78CA50D59 /* PBXContainerItemProxy */;
+			targetProxy = CA45BC2E671B497288C0C6D5 /* PBXContainerItemProxy */;
+		};
+		C4E9411CF9B64DD3B66AAF34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9EBC1418917A4253B134FB82 /* ALL_BUILD */;
+			targetProxy = 81BEFA99731043728505185E /* PBXContainerItemProxy */;
+		};
+		CABEE5C8823F4416A8606D1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DEF044C27B14A3DB42A0DDE /* ZERO_CHECK */;
+			targetProxy = B0CD4FF744D24C00B6F69B27 /* PBXContainerItemProxy */;
+		};
+		FD4D5FF2A0B64C859F52C71F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DEF044C27B14A3DB42A0DDE /* ZERO_CHECK */;
+			targetProxy = 4C90F69B68344BEF8A62B62E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02B67E30001041E6BE93876A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		07F47C125C8E431489EE8EFB /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		0CEA028406D1446FA3D75222 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		0F1D78446AC74E30998374A0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		156A4B98168B458EBDC5910A /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode/build;
-			};
-			name = RelWithDebInfo;
-		};
-		287AD6D31C1D4410A97962E4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",sciComp_EXPORTS,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = sciComp;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		30D2F232B9BC401297AA40BF /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		490AE996B4DF492EA7368680 /* RelWithDebInfo */ = {
+		1408FCD811F14A08B2DE57C8 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -694,141 +569,7 @@ fi
 			};
 			name = RelWithDebInfo;
 		};
-		4CB2DB526B9F4283B27D9138 /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = s;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",sciComp_EXPORTS,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = sciComp;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = MinSizeRel;
-		};
-		680CF4C62AD74C17805A7C5E /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		7163439419BC48C2A14F8644 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Release;
-		};
-		717387180C2A487282411424 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = install;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = Debug;
-		};
-		7342AB4B310B41C29354767B /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = ("","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		851EF0B8626743978BFA9C41 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = "";
-				DYLIB_CURRENT_VERSION = "";
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .dylib;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 2;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",sciComp_EXPORTS,"$(inherited)");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits,"$(inherited)");
-				INSTALL_PATH = "@rpath";
-				LIBRARY_STYLE = DYNAMIC;
-				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=c++17' ";
-				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = sciComp;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		8F76B7EB1BC44BB8AB784C99 /* Debug */ = {
+		19F7DA1DADDF4CCDA52923D2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -855,7 +596,94 @@ fi
 			};
 			name = Debug;
 		};
-		AAB740CF3F9041D2B2EAD232 /* Debug */ = {
+		221D0E94CA60494ABD444F3C /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		2B54FBD02CEF473F96DC0F36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		42FC69FCF2244063B3060580 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		49C48F6CE56E4CF781696FE0 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",sciComp_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sciComp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4BF5EB9F8B46482AB5506954 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -863,9 +691,36 @@ fi
 				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
 				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode/build;
 			};
-			name = Debug;
+			name = RelWithDebInfo;
 		};
-		BC5DEEBBE2EA421B80C1C61E /* MinSizeRel */ = {
+		545808F8DFE84BFC92C9C037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",sciComp_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sciComp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5CCC53AB9FE448E099C6FA65 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -875,7 +730,7 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		C601C3AA052F4778B33A4D12 /* MinSizeRel */ = {
+		62C3A2E125AC46EBB0D3348A /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -895,7 +750,114 @@ fi
 			};
 			name = MinSizeRel;
 		};
-		CF43CBB569A04C408E6947B6 /* Release */ = {
+		6E5C0AE856184E90B45DC361 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .dylib;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'",sciComp_EXPORTS,"$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/usr/local/include,/Users/bernardocohen/repos/sciComp/cpp/include/sciComp_bits,"$(inherited)");
+				INSTALL_PATH = "@rpath";
+				LIBRARY_STYLE = DYNAMIC;
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG -fPIC '-std=c++17' ";
+				OTHER_LDFLAGS = (" -dynamiclib -Wl,-headerpad_max_install_names","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = sciComp;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		81D8B14C21964F38B5EC85CE /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		9C41C5352B4F4D85B76060E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A44555D3EBCA4EA684EAE51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C228193F971941FC81EC07AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		D86CFC1B8308467CBC6B204A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
@@ -905,7 +867,57 @@ fi
 			};
 			name = Release;
 		};
-		D61EC4C915B24839A0F4D56E /* Release */ = {
+		E32C341183744527963F09B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(NATIVE_ARCH_ACTUAL)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode/build;
+			};
+			name = Debug;
+		};
+		E581899E0B174D1FA0666968 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		E75F903FD56A49B2A53B22B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'","$(inherited)");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = ("","$(inherited)");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/bernardocohen/repos/sciComp/cpp/Xcode;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		F0AE4DD3ACAE467E9E71BC12 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -928,57 +940,57 @@ fi
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0FD646AF47964E0480C369E5 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		7A363B49A18D4106B423D1F1 /* Build configuration list for PBXProject "scicomp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0CEA028406D1446FA3D75222 /* Debug */,
-				D61EC4C915B24839A0F4D56E /* Release */,
-				C601C3AA052F4778B33A4D12 /* MinSizeRel */,
-				7342AB4B310B41C29354767B /* RelWithDebInfo */,
+				E32C341183744527963F09B0 /* Debug */,
+				D86CFC1B8308467CBC6B204A /* Release */,
+				5CCC53AB9FE448E099C6FA65 /* MinSizeRel */,
+				4BF5EB9F8B46482AB5506954 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		CF23123656204235989D88F8 /* Build configuration list for PBXAggregateTarget "install" */ = {
+		BBF1C5C1BA3A4DEFABF29D0B /* Build configuration list for PBXAggregateTarget "install" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				717387180C2A487282411424 /* Debug */,
-				7163439419BC48C2A14F8644 /* Release */,
-				30D2F232B9BC401297AA40BF /* MinSizeRel */,
-				490AE996B4DF492EA7368680 /* RelWithDebInfo */,
+				9C41C5352B4F4D85B76060E0 /* Debug */,
+				A44555D3EBCA4EA684EAE51F /* Release */,
+				81D8B14C21964F38B5EC85CE /* MinSizeRel */,
+				1408FCD811F14A08B2DE57C8 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		DBA09465F9554AAE96EACED8 /* Build configuration list for PBXNativeTarget "sciComp" */ = {
+		EBA5E393BBE846139569EBCB /* Build configuration list for PBXNativeTarget "sciComp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8F76B7EB1BC44BB8AB784C99 /* Debug */,
-				287AD6D31C1D4410A97962E4 /* Release */,
-				4CB2DB526B9F4283B27D9138 /* MinSizeRel */,
-				851EF0B8626743978BFA9C41 /* RelWithDebInfo */,
+				19F7DA1DADDF4CCDA52923D2 /* Debug */,
+				545808F8DFE84BFC92C9C037 /* Release */,
+				49C48F6CE56E4CF781696FE0 /* MinSizeRel */,
+				6E5C0AE856184E90B45DC361 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		DCAB7528812E400D9D82FFF2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		F22625A4D1DD410DB8D55E99 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F1D78446AC74E30998374A0 /* Debug */,
-				02B67E30001041E6BE93876A /* Release */,
-				07F47C125C8E431489EE8EFB /* MinSizeRel */,
-				680CF4C62AD74C17805A7C5E /* RelWithDebInfo */,
+				2B54FBD02CEF473F96DC0F36 /* Debug */,
+				E75F903FD56A49B2A53B22B6 /* Release */,
+				E581899E0B174D1FA0666968 /* MinSizeRel */,
+				221D0E94CA60494ABD444F3C /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		F47182B3C1F14D299260B6FE /* Build configuration list for PBXProject "scicomp" */ = {
+		FF053DD6619B440B8BD29D45 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AAB740CF3F9041D2B2EAD232 /* Debug */,
-				CF43CBB569A04C408E6947B6 /* Release */,
-				BC5DEEBBE2EA421B80C1C61E /* MinSizeRel */,
-				156A4B98168B458EBDC5910A /* RelWithDebInfo */,
+				C228193F971941FC81EC07AF /* Debug */,
+				F0AE4DD3ACAE467E9E71BC12 /* Release */,
+				62C3A2E125AC46EBB0D3348A /* MinSizeRel */,
+				42FC69FCF2244063B3060580 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
