@@ -45,6 +45,16 @@ set(SOURCE_FILES
     ${PROJECT_INCLUDE_DIR}/point.hpp
     ${PROJECT_INCLUDE_DIR}/mesh.hpp
     ${PROJECT_INCLUDE_DIR}/meas.hpp
+    ${PROJECT_INCLUDE_DIR}/interpolate.hpp
+    ${PROJECT_INCLUDE_DIR}/renumbering.hpp
+    ${PROJECT_INCLUDE_DIR}/assembly_mass.hpp
+    ${PROJECT_INCLUDE_DIR}/coeff.hpp
+    ${PROJECT_INCLUDE_DIR}/unique_insert.hpp
+    ${PROJECT_INCLUDE_DIR}/pass1.hpp
+    ${PROJECT_INCLUDE_DIR}/pass2.hpp
+    ${PROJECT_INCLUDE_DIR}/assembly_energy.hpp
+    ${PROJECT_INCLUDE_DIR}/dirichlet.hpp
+    ${PROJECT_INCLUDE_DIR}/sinusprod.hpp
     
     ${PROJECT_SOURCE_DIR}/intro.cpp
 )

@@ -28,5 +28,16 @@
 #include "sciComp_bits/point.hpp"
 #include "sciComp_bits/mesh.hpp"
 #include "sciComp_bits/meas.hpp"
+#include "sciComp_bits/interpolate.hpp"
+#include "sciComp_bits/renumbering.hpp"
+#include "sciComp_bits/assembly_mass.hpp"
+#include "sciComp_bits/coeff.hpp"
+#include "sciComp_bits/unique_insert.hpp"
+#include "sciComp_bits/pass1.hpp"
+#include "sciComp_bits/pass2.hpp"
+#include "sciComp_bits/assembly_energy.hpp"
+#include "sciComp_bits/dirichlet.hpp"
+#include "sciComp_bits/sinusprod.hpp"
+
 
 #endif

@@ -275,8 +275,42 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
   /usr/local/include/sciComp_bits/element.hpp \
   /usr/local/include/sciComp_bits/meas.hpp \
   /usr/local/include/sciComp_bits/mesh.hpp \
+  /usr/local/include/sciComp_bits/interpolate.hpp \
+  /usr/local/include/sciComp_bits/renumbering.hpp \
+  /usr/local/include/sciComp_bits/assembly_mass.hpp \
+  /usr/local/include/sciComp_bits/coeff.hpp \
+  /usr/local/include/sciComp_bits/meas.hpp \
+  /usr/local/include/sciComp_bits/unique_insert.hpp \
+  /usr/local/include/sciComp_bits/pass1.hpp \
+  /usr/local/include/sciComp_bits/unique_insert.hpp \
+  /usr/local/include/sciComp_bits/matrix.hpp \
+  /usr/local/include/sciComp_bits/pass2.hpp \
+  /usr/local/include/sciComp_bits/coeff.hpp \
+  /usr/local/include/sciComp_bits/assembly_energy.hpp \
+  /usr/local/include/sciComp_bits/pass1.hpp \
+  /usr/local/include/sciComp_bits/pass2.hpp \
+  /usr/local/include/sciComp_bits/dirichlet.hpp \
+  /usr/local/include/sciComp_bits/renumbering.hpp \
+  /usr/local/include/sciComp_bits/assembly_mass.hpp \
+  /usr/local/include/sciComp_bits/assembly_energy.hpp \
+  /usr/local/include/sciComp_bits/interpolate.hpp \
+  /usr/local/include/sciComp_bits/cg.hpp \
+  /usr/local/include/sciComp_bits/eye.hpp \
+  /usr/local/include/sciComp_bits/sinusprod.hpp \
   /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/iomanip
 
+
+/usr/local/include/sciComp_bits/dirichlet.hpp:
+
+/usr/local/include/sciComp_bits/pass2.hpp:
+
+/usr/local/include/sciComp_bits/assembly_mass.hpp:
+
+/usr/local/include/sciComp_bits/assembly_energy.hpp:
+
+/usr/local/include/sciComp_bits/renumbering.hpp:
+
+/usr/local/include/sciComp_bits/interpolate.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/array:
 
@@ -358,6 +392,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_key_t.h:
 
+/usr/local/include/sciComp_bits/sinusprod.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_ino_t.h:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_in_port_t.h:
@@ -411,6 +447,8 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cctype:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cstdio:
+
+/usr/local/include/sciComp_bits/unique_insert.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/c++/v1/cwchar:
 
@@ -654,7 +692,11 @@ CMakeFiles/test.dir/src/test.cpp.o: ../src/test.cpp \
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/strings.h:
 
+/usr/local/include/sciComp_bits/coeff.hpp:
+
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_rune_t.h:
+
+/usr/local/include/sciComp_bits/pass1.hpp:
 
 /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk/usr/include/sys/_types/_mach_port_t.h:
 

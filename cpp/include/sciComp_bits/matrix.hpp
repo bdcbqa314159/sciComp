@@ -151,5 +151,29 @@ std::istream& operator>>(std::istream& is, matrix<T>& a){
     return is;
 }
 
+template<typename T>
+void matrix<T>::resize(const std::vector<std::list<size_t>>& s, size_t ncol){
+    
+    size_t nrow = s.size();
+    ptr.resize(nrow + 1);
+    ptr[0] = 0;
+    
+    for (size_t i = 0; i<nrow; i++) ptr[i+1] = ptr[i] + s[i].size();
+    
+    size_t nnz = ptr[s.size()];
+    idx.resize(nnz);
+    
+    for (size_t i = 0, p =0; i<nrow; i++){
+        for (std::list<size_t>::const_iterator iter = s[i].begin(), last = s[i].end(); iter != last; ++iter, ++p){
+            idx[p] = *iter;
+        }
+    }
+    
+    val.resize(nnz);
+    val = 0;
+    idxmax = ncol;
+    
+}
+
 
 #endif
